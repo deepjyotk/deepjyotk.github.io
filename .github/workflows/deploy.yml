@@ -15,19 +15,9 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/**"
       - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
-      - "!README.md"
+      - "!*.md"
   pull_request:
     branches:
       - master
@@ -42,19 +32,9 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
-      - "!.github/workflows/axe.yml"
-      - "!.github/workflows/broken-links.yml"
-      - "!.github/workflows/deploy-docker-tag.yml"
-      - "!.github/workflows/deploy-image.yml"
-      - "!.github/workflows/docker-slim.yml"
-      - "!.github/workflows/lighthouse-badger.yml"
-      - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/**"
       - "!lighthouse_results/**"
-      - "!CONTRIBUTING.md"
-      - "!CUSTOMIZE.md"
-      - "!FAQ.md"
-      - "!INSTALL.md"
-      - "!README.md"
+      - "!*.md"
   workflow_dispatch:
 
 permissions:
@@ -62,7 +42,6 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -72,6 +51,12 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Add Platform to Gemfile.lock
+        run: bundle lock --add-platform x86_64-linux
+      - name: Print Ruby and Bundler Version
+        run: |
+          ruby -v
+          bundler -v
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
