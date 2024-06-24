@@ -46,13 +46,13 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Add Platform to Gemfile.lock
+        run: bundle lock --add-platform x86_64-linux
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
-      - name: Add Platform to Gemfile.lock
-        run: bundle lock --add-platform x86_64-linux
       - name: Print Ruby and Bundler Version
         run: |
           ruby -v
