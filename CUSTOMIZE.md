@@ -6,7 +6,7 @@ Here we will give you some tips on how to customize the website. One important t
 
 The project is structured as follows, focusing on the main components that you will need to modify:
 
-```txt
+```
 .
 ├── 📂 assets/: contains the assets that are displayed in the website
 │   └── 📂 json/
