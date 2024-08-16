@@ -1,81 +1,28 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: BankingProto
+description: This project is a simulation of a banking application developed using gRPC in Java. The application demonstrates the use of gRPC for client-server communication, ensuring efficient, scalable, and high-performance interactions. The project is structured with clean code principles and includes proper integration tests between the client and server applications.
+img: assets/img/projects/banking-proto/thumbnail.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+#### 🔗[Github Link](https://github.com/deepjyotk/lf1-image-indexing)
+    Technologies Used: Java 21, gRPC, Protocol Buffers, Maven, JUnit(Testing)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Features
+1. Users can request for account balance.
+2. Users can withdraw money from their account.
+3. Users can deposit money to their account.
+4. Users can transfer money from one account to another.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+### Benefits of gRPC
+1. High Performance: gRPC uses HTTP/2 for transport, which supports multiplexing multiple requests over a single connection, reducing latency and improving throughput.
+2. Strongly Typed Contracts: With Protocol Buffers (protobuf), gRPC ensures type safety and contract enforcement, reducing errors and providing clear API documentation.
+3. Language Agnostic: gRPC supports multiple programming languages, allowing different parts of the application to be written in different languages while still communicating seamlessly.
+4. Streaming: gRPC supports streaming in both directions, enabling real-time data exchange and long-lived connections.
+5. Efficient Serialization: Protocol Buffers are highly efficient for both serialization and deserialization, resulting in smaller message sizes and faster processing.
+6. Built-in Load Balancing and Retries: gRPC has built-in support for load balancing and automatic retries, enhancing the reliability of distributed systems
