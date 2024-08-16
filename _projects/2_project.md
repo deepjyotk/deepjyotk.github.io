@@ -9,17 +9,18 @@ giscus_comments: false
 ---
 
 #### 🔗[Github Link](https://github.com/deepjyotk/lf1-image-indexing)
+
     Technologies Used: Java 21, gRPC, Protocol Buffers, Maven, JUnit(Testing)
 
-
 ### Features
+
 1. Users can request for account balance.
 2. Users can withdraw money from their account.
 3. Users can deposit money to their account.
 4. Users can transfer money from one account to another.
 
-
 ### Benefits of gRPC
+
 1. High Performance: gRPC uses HTTP/2 for transport, which supports multiplexing multiple requests over a single connection, reducing latency and improving throughput.
 2. Strongly Typed Contracts: With Protocol Buffers (protobuf), gRPC ensures type safety and contract enforcement, reducing errors and providing clear API documentation.
 3. Language Agnostic: gRPC supports multiple programming languages, allowing different parts of the application to be written in different languages while still communicating seamlessly.
