@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Clinched a global rank of 3295 out of over 30,000 participants in a LeetCode competitive coding contest! 🌍🏆
+Clinched a global rank of 1491 out of over 30,000 participants in a LeetCode competitive coding contest! 🌍🏆
