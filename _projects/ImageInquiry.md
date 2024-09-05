@@ -4,11 +4,11 @@ title: ImageInquiry
 description: Developed a web application utilizing AWS services that allows users to upload images, automatically generate AI-based tags, and add custom tags for efficient image searching.
 img: assets/img/projects/image-inquiry/thumbnail.jpg
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 
-#### 🔗Github: [Backend](https://github.com/deepjyotk/lf1-image-indexing), [Frontend](https://github.com/deepjyotk/image-inquiry-react-app)
+#### 🔗Github: [Backend](https://github.com/deepjyotk/image-inquiry-backend), [Frontend](https://github.com/deepjyotk/image-inquiry-react-app)
 
     Technologies Used: React, AWS(Lambda, ElasticSearch, Cognito, S3, DynamoDB, AWS CDK, Github Actions)
 

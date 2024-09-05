@@ -3,8 +3,13 @@ github_users:
   # - alshedivat
 
 github_repos:
-  - deepjyotk/lf1-image-indexing
+  - deepjyotk/image-inquiry-backend
+  - deepjyotk/image-inquiry-react-app
+  - deepjyotk/trade-stream
+  - deepjyotk/BankingProto
   - deepjyotk/Socials-UI
+  - deepjyotk/NYC_Motor_Accidents_GeospatialAnalysis
+  - deepjyotk/code_solver
   # - jekyll/jekyll
   # - jquery/jquery
   # - FortAwesome/Font-Awesome

@@ -2,9 +2,9 @@
 layout: page
 title: TradeStream
 description: Trade Stream is a gRPC-based trading platform that allows users to execute stock trades and receive real-time price updates with high efficiency and low latency.
-img: assets/img/projects/image-inquiry/thumbnail.jpg
+img: assets/img/projects/trade-stream/ui.png
 importance: 2
-category: work
+category: fun
 related_publications: false
 ---
 
