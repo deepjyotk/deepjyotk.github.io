@@ -8,7 +8,7 @@ category: fun
 related_publications: false
 ---
 
-#### 🔗[Github Link](https://github.com/deepjyotk/trade-stream)
+#### 🔗[Github Link](https://github.com/deepjyotk/travel-insight)
 
     Technologies Used: Java21, Virtual Thread, Multithreading
 
