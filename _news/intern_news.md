@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm excited to announce that I've joined iCommit Solutions as a Software Engineer Intern, where I'll be working with technologies like React, Next.js, and more!
+I'm excited to announce that I've joined iCommit Solutions as a Software Engineer Intern, where I'll be working with technologies like Flutter, React, Next.js, and more!
