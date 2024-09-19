@@ -3,7 +3,7 @@ layout: page
 title: BankingProto
 description: This project is a simulation of a banking application developed using gRPC in Java. The application demonstrates the use of gRPC for client-server communication, ensuring efficient, scalable, and high-performance interactions. The project is structured with clean code principles and includes proper integration tests between the client and server applications.
 img: assets/img/projects/banking-proto/thumbnail.jpg
-importance: 3
+importance: 4
 category: fun
 giscus_comments: false
 ---
