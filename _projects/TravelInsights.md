@@ -3,7 +3,7 @@ layout: page
 title: Travel Insights
 description: Explored the performance differences between Java 21's new virtual threads and the traditional platform threads in a travel planning application. The system handles services such as trip reservations, event planning, accommodation recommendations, and local recommendations.
 img: assets/img/projects/travel-insights/image.png
-importance: 3
+importance: 4
 category: fun
 related_publications: false
 ---
