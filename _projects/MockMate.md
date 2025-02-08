@@ -2,7 +2,7 @@
 layout: page
 title: MockMate
 description: Mock Mate is a peer-to-peer mock interview platform where users can book slots, get matched with peers, and practice both behavioral and software engineering interviews. It offers an interactive, real-time interview experience with features such as video conferencing, peer feedback, and a comprehensive review of past interviews. The platform is designed to help users prepare for technical and behavioral interviews, enhancing their confidence and readiness for real-world interviews.
-img: assets/img/projects/mockmate/thumbnail.jpg
+img: assets/img/projects/mockmate/thumbnail1.jpg
 importance: 1
 category: fun
 related_publications: false
