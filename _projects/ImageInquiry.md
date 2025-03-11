@@ -2,7 +2,7 @@
 layout: page
 title: ImageInquiry
 description: Developed a web application utilizing AWS services that allows users to upload images, automatically generate AI-based tags, and add custom tags for efficient image searching.
-img: assets/img/projects/image-inquiry/thumbnail.jpg
+img: assets/img/projects/image-inquiry/thumbnail.png
 importance: 2
 category: fun
 related_publications: false

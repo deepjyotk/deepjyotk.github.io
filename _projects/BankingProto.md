@@ -2,7 +2,7 @@
 layout: page
 title: BankingProto
 description: This project is a simulation of a banking application developed using gRPC in Java. The application demonstrates the use of gRPC for client-server communication, ensuring efficient, scalable, and high-performance interactions. The project is structured with clean code principles and includes proper integration tests between the client and server applications.
-img: assets/img/projects/banking-proto/thumbnail.jpg
+img: assets/img/projects/banking-proto/thumbnail.png
 importance: 5
 category: fun
 giscus_comments: false
@@ -20,7 +20,6 @@ giscus_comments: false
 4. Users can transfer money from one account to another.
 
 ### Benefits of gRPC
-
 1. High Performance: gRPC uses HTTP/2 for transport, which supports multiplexing multiple requests over a single connection, reducing latency and improving throughput.
 2. Strongly Typed Contracts: With Protocol Buffers (protobuf), gRPC ensures type safety and contract enforcement, reducing errors and providing clear API documentation.
 3. Language Agnostic: gRPC supports multiple programming languages, allowing different parts of the application to be written in different languages while still communicating seamlessly.

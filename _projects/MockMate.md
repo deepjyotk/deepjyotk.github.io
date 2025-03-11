@@ -2,25 +2,17 @@
 layout: page
 title: Mock Mate
 description: Mock Mate is a peer-to-peer mock interview platform where users can book slots, get matched with peers, and practice both behavioral and software engineering interviews. It offers an interactive, real-time interview experience with features such as video conferencing, peer feedback, and a comprehensive review of past interviews. The platform is designed to help users prepare for technical and behavioral interviews, enhancing their confidence and readiness for real-world interviews.
-img: assets/img/projects/mockmate/thumbnail1.jpg
+img: assets/img/projects/mockmate/thumbnail2.webp
 importance: 1
 category: fun
 related_publications: false
-# giscus_comments: true
 ---
 
-
-<!-- #### 🔗Github: [Backend](https://github.com/deepjyotk/image-inquiry-backend), [Frontend](https://github.com/deepjyotk/image-inquiry-react-app) -->
-
-
-   Technologies Used: Spring Boot, PostgreSQL, Docker, AWS (ECS), Next.JS
-
+#### 🔗Github: [Backend API](https://github.com/deepjyotk/mockmate-api), [Backend WebSocket Svc](https://github.com/deepjyotk/mockmate-ws), [Frontend Next.js](https://github.com/deepjyotk/mockmate-frontend)
+    Technologies Used: Spring Boot, PostgreSQL, Docker, AWS (ECS), React(Redux)+Next.JS
 
 ## Features
-
-
 ### **Authentication**
-
 
 - **Login**: Secure user login with email and password.
 - **Registration**: Simple registration process to onboard new users.
@@ -28,8 +20,6 @@ related_publications: false
 
 
 ### **Slot Booking**
-
-
 - Users can book slots for mock interviews.
 - Options for interview type:
  - **Behavioral Interview**
@@ -171,7 +161,6 @@ Motivated by the lack of collaborative interview preparation platforms, Mock Mat
 
 ## **Usage**
 
-
 1. **Register** as a new user or **login** to your existing account.
 2. **Book a Slot** for your interview by selecting the date, time, interview type, and difficulty.
 3. **Join the Waiting Room** at the selected slot time.
@@ -181,16 +170,10 @@ Motivated by the lack of collaborative interview preparation platforms, Mock Mat
 
 
 ## **Future Scope**
-
-
 1. **WebSockets for Real-Time Updates**
   - Replace short polling with **WebSocket** connections for real-time updates, significantly improving performance and responsiveness.
 2. **Custom Interview Questions**
-
-
   - Allow users to select the company they are preparing for (like Google, Amazon, etc.), and generate interview questions related to that company.
-
-
 3. **Collaborative Code Editor**
   - Add a **collaborative editor** where users can write, compile, and debug code together during technical interviews.
   - Plan to use a 3rd party API for collaborative editing.
@@ -198,6 +181,3 @@ Motivated by the lack of collaborative interview preparation platforms, Mock Mat
   - Notify users about interview slot availability, peer matching status, and feedback reminders.
 5. **Feedback Analytics**
   - Show analytics to users based on past feedback and interview performance.
-
-
-
