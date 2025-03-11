@@ -20,6 +20,7 @@ giscus_comments: false
 4. Users can transfer money from one account to another.
 
 ### Benefits of gRPC
+
 1. High Performance: gRPC uses HTTP/2 for transport, which supports multiplexing multiple requests over a single connection, reducing latency and improving throughput.
 2. Strongly Typed Contracts: With Protocol Buffers (protobuf), gRPC ensures type safety and contract enforcement, reducing errors and providing clear API documentation.
 3. Language Agnostic: gRPC supports multiple programming languages, allowing different parts of the application to be written in different languages while still communicating seamlessly.
